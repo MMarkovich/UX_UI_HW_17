@@ -1,0 +1,33 @@
+
+li{display: inline-block; vertical-align: top;}
+ul{font-family: arial; align-items: left;word-spacing: 65px;font-size: 25px;}
+footer {
+
+    bottom:0;
+    width:100%;
+    box-shadow: 10px -75px 30px #FFFF inset;
+ }
+ nav {box-shadow: 10px -75px 30px #FFFF inset;}
+
+section{color: black; line-height: .3; 
+    font-size: 50px; 
+    padding-left: 40px; 
+    position: absolute;
+    top: 15%;}
+
+    .heroText p {font-weight: 200;}
+    .heroText .name {font-weight: 500;}
+
+.heroContainer{background-image: url(../images/hero.jpg); 
+    background-repeat:no-repeat; 
+    max-width: 1200px;
+    min-width: 1000px;
+    height: 100vh;
+    width: 100vw;
+    background-size: 160%; 
+    background-position: 65% 0%;
+    box-shadow: 0px 0px 60px 80px #FFFF inset;
+}
+    
+body {font-family: 'Montserrat', sans-serif;}
+.container {margin: 0 auto; max-width: 1035px}
