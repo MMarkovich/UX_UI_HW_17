@@ -5,18 +5,25 @@ footer {
 
     bottom:0;
     width:100%;
-    box-shadow: 10px -75px 30px #FFFF inset;
+    box-shadow: 10px -75px 30px #A0BED9 inset;
  }
  nav {box-shadow: 10px -75px 30px #FFFF inset;}
 
 section{color: black; line-height: .3; 
     font-size: 50px; 
     padding-left: 40px; 
-    position: absolute;
+    position: relative;
     top: 15%;}
 
     .heroText p {font-weight: 200;}
     .heroText .name {font-weight: 500;}
+    .bodyText {font-size: 18px;
+    font-weight: lighter;
+line-height: 1.5;
+position: relative;
+max-width: 420px;}
+.titleText {font-size: 20;
+margin-top: 100px;}
 
 .heroContainer{background-image: url(../images/hero.jpg); 
     background-repeat:no-repeat; 
@@ -27,7 +34,16 @@ section{color: black; line-height: .3;
     background-size: 160%; 
     background-position: 65% 0%;
     box-shadow: 0px 0px 60px 80px #FFFF inset;
+    background-color: white;
+    color: black;
 }
+
     
 body {font-family: 'Montserrat', sans-serif;}
-.container {margin: 0 auto; max-width: 1035px}
+.container {margin: 0 auto; max-width: 1035px; 
+    vertical-align: middle;
+    padding-top:12px;
+  	padding-bottom:12px;
+    min-height: 25px;
+    background-color: A0BED9;
+    color: black;}
