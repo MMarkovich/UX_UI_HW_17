@@ -1,6 +1,7 @@
 
 li{display: inline-block; vertical-align: top;}
-ul{font-family: arial; align-items: left;word-spacing: 65px;font-size: 25px;}
+ul{font-family: arial; align-items: left;
+    word-spacing: 65px;font-size: 25px;}
 footer {
 
     bottom:0;
@@ -22,6 +23,7 @@ section{color: black; line-height: .3;
 line-height: 1.5;
 position: relative;
 max-width: 420px;}
+
 .titleText {font-size: 20;
 margin-top: 100px;}
 
@@ -37,6 +39,14 @@ margin-top: 100px;}
     background-color: white;
     color: black;
 }
+
+.boxed {width: 200px;
+height: 140px;
+background-color: teal;
+margin-left: 40px;
+text-align: center;
+position:inherit;
+  }
 
     
 body {font-family: 'Montserrat', sans-serif;}
