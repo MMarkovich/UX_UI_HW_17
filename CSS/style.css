@@ -16,22 +16,25 @@ section{color: black; line-height: .3;
     position: relative;
     top: 15%;}
 
-    .heroText p {font-weight: 200;}
-    .heroText .name {font-weight: 500;}
+    .heroText p {font-weight: 200;;}
+    .heroText .name {font-weight: 500;
+    padding-top: 54px}
     .bodyText {font-size: 18px;
     font-weight: lighter;
 line-height: 1.5;
 position: relative;
-max-width: 420px;}
+max-width: 420px;
+}
 
 .titleText {font-size: 20;
-margin-top: 100px;}
+margin-top: 100px;
+padding-left:40px;}
 
 .heroContainer{background-image: url(../images/hero.jpg); 
     background-repeat:no-repeat; 
     max-width: 1200px;
     min-width: 1000px;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
     background-size: 160%; 
     background-position: 65% 0%;
@@ -40,20 +43,40 @@ margin-top: 100px;}
     color: black;
 }
 
-.boxed {width: 200px;
-height: 140px;
+.CaseBox {display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.boxed {width: 250px;
+height: 150px;
 background-color: teal;
 margin-left: 40px;
-text-align: center;
+justify-content: center;
 position:inherit;
+align-items: center;
+border-radius: 30px 0px 30px 0px;
+display: flex;
+margin-bottom: 40px;
   }
 
     
 body {font-family: 'Montserrat', sans-serif;}
 .container {margin: 0 auto; max-width: 1035px; 
     vertical-align: middle;
-    padding-top:12px;
+    padding-top:0px;
   	padding-bottom:12px;
     min-height: 25px;
     background-color: A0BED9;
     color: black;}
+
+
+.containFooter {margin: 0 auto; max-width: 1035px; 
+        vertical-align: middle;
+        padding-top:10px;
+        padding-bottom:10px;
+    min-height: 25px;
+        background-color: A0BED9;
+        color: white;}
+        .containFooter .linkedin {float: right; margin-right: 40px;}
+
